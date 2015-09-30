@@ -5,7 +5,7 @@
 	"keywords": ["cache", "memcached", "singleton"],
 	"authors": [{"name": "Sicaa", "email": "jes@sicaa.net"}],
 	"license": "MIT",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"require": {
 		"php": ">=5",
 		"ext-memcached": "*"
