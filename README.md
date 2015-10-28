@@ -6,7 +6,7 @@ PHP singleton for Memcached/Redis
 
 ## Requirements
 
-- PHP >= 5.*
+- PHP >= 5.3
 
 ## Suggestions
 
