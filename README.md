@@ -32,7 +32,7 @@ require_once 'vendor/autoload.php';
 
 use StarterKit\Cache\Memcached;
 
-// First instanciation : pass your DB parameters
+// First instanciation : pass your Memcached parameters
 $mc = Memcached::getInstance('YOUR_SERVER_NAME', 'YOUR_SERVER_PORT');
 
 // Later in your code : you can retrieve your instance at any time, without creating new Memcached connection
@@ -49,7 +49,7 @@ require_once 'vendor/autoload.php';
 
 use StarterKit\Cache\Redis;
 
-// First instanciation : pass your DB parameters
+// First instanciation : pass your Redis parameters
 $mc = Redis::getInstance('YOUR_SERVER_NAME', 'YOUR_SERVER_PORT');
 
 // Later in your code : you can retrieve your instance at any time, without creating new Redis connection
